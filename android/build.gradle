@@ -27,6 +27,8 @@ apply plugin: 'kotlin-android'
 android {
     compileSdk 33
 
+    namespace "io.github.sunkeeper316.qr_code_scanner"
+
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
